@@ -15,7 +15,7 @@ This action validate production deployment window with freeze window ( 16:00 to 
 
 ### Example usage
 ```
-uses: actions/check-prod-freezw@v1.0
+uses: actions/check-prod-freeze@v1.0
 with:
   env: 'prod'
   force_deploy: false
