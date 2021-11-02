@@ -1,0 +1,22 @@
+{
+  "name": "check-prod-freeze",
+  "version": "1.0.0",
+  "description": "To check if deployment time falling in between freeze time 4pm to 6pm CET.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amar-khan/check-prod-freeze.git"
+  },
+  "author": "amar.khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amar-khan/check-prod-freeze/issues"
+  },
+  "homepage": "https://github.com/amar-khan/check-prod-freeze#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0"
+  }
+}
